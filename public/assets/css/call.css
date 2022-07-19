@@ -1,0 +1,73 @@
+@import url('./root.css');
+
+.header-list-call{
+    max-width: 500px;
+    height: 60px;
+    background-color: #aa00ff;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    margin:0px auto;
+    padding:0px 15px;
+}
+
+.header-list-call h2{
+    line-height: 60px;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+}
+
+.list-call{
+    padding: 0px 10px;
+    padding-top: 70px;
+}
+
+.box-call{
+    width: 100%;
+    height: 80px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.thumbnail{
+    width:80px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+
+.thumbnail img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.content{
+    width: 400px;
+    height: 80px;
+    float: right;
+    padding:10px 15px;
+}
+
+.name-call{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.date{
+    float: right;
+}
+
+@media(max-width:600px){
+    .thumbnail{
+        width:25%;
+    }
+
+    .content{
+        width: 75%;
+    }
+}

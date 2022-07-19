@@ -1,0 +1,82 @@
+{
+    "id" : "1",
+    "name" : "Bayu Firmansyah",
+    "profile" : "bayu.png",
+    "friends" : [
+        {
+            "id" : "5",
+            "name" : "SMKN 4 MALANG",
+            "profile" : "grafika.png",
+            "chat" : [
+                {"id":5, "date":"00.00", "message": "Ayo ramaikan acara GEL4R KARYA PEMBELAJARAN pada tanggal 22-24 Juni di Lapangan Serba Guna SMKN 4 MALANG"}
+            ]
+        },
+        {
+            "id" : "4",
+            "name" : "Bu Dian",
+            "profile" : "bu-dian.png",
+            "chat" : [
+                {"id":4, "date":"20.10", "message": "Nak,besok hadir ya di acara GELAR KARYA PEMBELAJARAN"}
+            ]
+        },
+        {
+            "id" : "2",
+            "name" : "Sherly Eka",
+            "profile" : "sherly.png",
+            "chat" : [
+                {"id":2 , "date": "20.00", "message": "hai bay,jangan lupa besok ada pameran "},
+                {"id":1 , "date": "20.01", "message": "pameran ?" },
+                {"id":2 , "date": "20.01", "message": "iya, besok di SMKN 4 Malang akan di adakan acara GEL4R KARYA PEMBELAJARAN"},
+                {"id":1 , "date": "20.01", "message": "di pameran GEL4R KARYA PEMBELAJARAN ada apa aja sher ?"},
+                {"id":2 , "date": "20.02", "message": "acara nya akan berisi semua karya anak anak SMKN 4 MALANG yang keren keren,jangan lupa datang ya :)"},
+                {"id":1 , "date": "20.02", "message": "oke sher, Thank You buat informasi nya"}
+            ]
+        },
+        {
+            "id" : "3",
+            "name" : "Ubayy",
+            "profile" : "bayu.png",
+            "chat" : [
+                {"id":3, "date":"19.55", "message": "bro, besok jangan lupa dateng ke GEL4R KARYA PEMBELAJARAN SMKN 4 Malang"}
+            ]
+        },
+        {
+            "id": "6",
+            "name": "iqbal",
+            "profile": "iqbal.jpg",
+            "chat" : [
+                {"id":"6", "date":"16.00","message":"heyyo brooo"},
+                {"id":"6", "date":"16.00", "message":"gua mau info in,kalo tanggal 22-24 juni di SMKN4 MALANG ada acara GEL4R KARYA PEMBELAJARAN."},
+                {"id":"6", "date":"16.00", "message":"jangan lupa buat hadir,gabakal nyesel deh kalo lo hadir"},
+                {"id":"1", "date":"16.01", "message":"siap bro, Thank You buat info nya"},
+                {"id":"1", "date":"16.01", "message":"btw kalo gua ngajak temen gua buat join disana bisa ga bro ?"},
+                {"id":"6", "date":"16.01", "message":"boleh dong,ini acara kan untuk umum.terutama di tujuin untuk temen temen smp yang mau masuk SMK"}
+            ]
+        }
+    ],
+    "group" : [
+        {
+            "id": "2",
+            "name": "GEL4R KARYA 2022",
+            "profile": "grafika.png",
+            "chat": [
+                {"id":5, "name": "SMKN 4 MALANG", "date":"00.00", "message": "Ayo ramaikan acara GEL4R KARYA PEMBELAJARAN pada tanggal 22-24 Juni di Lapangan Serba Guna SMKN 4 MALANG"}
+            ]
+        },
+        {
+            "id": "1",
+            "name": "RPL 2021/2022",
+            "profile": "rpl.png",
+            "chat": [
+                {"id":5, "name": "Bu Dian", "date":"20.12", "message": "Ayo ramaikan acara GEL4R KARYA PEMBELAJARAN pada tanggal 22-24 Juni di Lapangan Serba Guna SMKN 4 MALANG"}
+            ]
+        }
+    ],
+    "call" : [
+        {"name": "SMKN 4 MALANG", "info": "Panggilan Masuk", "date": "21.00", "profile":"grafika.png"},
+        {"name": "Sherly Eka", "info": "Panggilan Masuk", "date": "19.00", "profile":"sherly.png"},
+        {"name": "Bu Dian", "info": "Panggilan Masuk", "date": "16.00", "profile":"bu-dian.png"},
+        {"name": "Iqbal", "info": "Panggilan Masuk", "date":"15.30", "profile":"iqbal.jpg"},
+        {"name": "Iqbal", "info": "Panggilan Masuk", "date":"15.29", "profile":"iqbal.jpg"}
+    ]
+}

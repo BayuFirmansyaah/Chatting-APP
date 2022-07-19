@@ -1,0 +1,52 @@
+@import url('./root.css');
+
+.listing-chat{
+    height: auto;
+    padding:70px 15px;
+    overflow: auto;
+}
+
+.message{
+    position: relative;
+    min-width: 10%;
+    max-width: 80%;
+    height: auto;
+    padding:10px 15px;
+    color: white;
+    margin: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.r-m{
+    border-radius: 0px 20px 20px 20px;
+    background-color: #448aff;
+    float: left;
+}
+
+.s-m{
+    border-radius: 20px 0px 20px 20px;
+    background-color: #00bfa5;
+    position: relative;
+    float: right;
+}
+
+.message .text .name{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.message h2{
+    font-size: 20px;
+    margin:0px;
+    margin-bottom: 2.5px;
+}
+
+.message .date{
+    float: right;
+    font-size: 14px;
+    position: relative;
+    bottom: 0px;
+    margin-top: 2.5px;
+}
+

@@ -1,0 +1,22 @@
+@import url('./root.css');
+
+h2 span{
+    font-weight: bold;
+    color: #aa00ff;
+}
+
+form button{
+    width: 100%;
+    background-color: #aa00ff !important;
+    color: white !important;
+}
+
+.dropdown-divider{
+    border-bottom: 1px solid #ccc;
+}
+
+.text-center a{
+    font-size: 17px;
+    margin-top:5px;
+    text-decoration: none;
+}

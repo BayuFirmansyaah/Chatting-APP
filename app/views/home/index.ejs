@@ -1,0 +1,62 @@
+<%- include('../partials/header') %>
+
+<div class="contain">
+
+    <div class="header-home-page">
+        <div class="list-story">
+            <div class="story">
+                <div class="thumbnail-story">
+                    <img src="/img/grafika.png" alt="">
+                </div>
+                <span>SMKN 4</span>
+            </div>
+
+            <div class="story">
+                <div class="thumbnail-story">
+                    <img src="/img/bu-dian.png" alt="">
+                </div>
+                <span>Bu Dian</span>
+            </div>
+
+            <div class="story">
+                <div class="thumbnail-story">
+                    <img src="/img/sherly.png" alt="">
+                </div>
+                <span>Sherly</span>
+            </div>
+
+            <div class="story">
+                <div class="thumbnail-story">
+                    <img src="/img/bayu.png" alt="">
+                </div>
+                <span>Wildan</span>
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div class="chatting-wrapper">
+
+    <% for( let i = 0; i < chat.length; i++ ) { %>
+        <a href="/chatting/<%=chat[i].id %>">
+            <div class="box-chat">
+                <div class="thumbnail">
+                    <div class="online"></div>
+                    <img src="/img/<%=chat[i].profile %>" alt="">
+                </div>
+                <div class="content-chat">
+                    <% let last_index = (chat[i].chat.length)-1 %> 
+                    <p class="text-time"><%= chat[i].chat[last_index].date %></p>
+                    <h2 class="title-contact"><%=chat[i].name %></h2>
+                    <div class="text-thumbnail"><%= chat[i].chat[last_index].message %></div>
+                </div>
+            </div>
+        </a>
+    <% } %>
+        
+    </div>
+</div>
+<%- include('../partials/bottom-bar') %>
+
+<%- include('../partials/footer') %>

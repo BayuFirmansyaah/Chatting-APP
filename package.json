@@ -1,0 +1,41 @@
+{
+  "name": "express-thunder",
+  "version": "1.0.0",
+  "description": "framework custom with express to build application fast",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sircloubay/Express-Thunder.git"
+  },
+  "keywords": [
+    "express",
+    "express-thunder",
+    "custom-express"
+  ],
+  "author": "sircloubay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sircloubay/Express-Thunder/issues"
+  },
+  "homepage": "https://github.com/sircloubay/Express-Thunder#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-mongodb-session": "^3.1.1",
+    "create-pwa": "^2.4.1",
+    "ejs": "^3.1.8",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "express-mysql-session": "^2.1.8",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.1"
+  }
+}
